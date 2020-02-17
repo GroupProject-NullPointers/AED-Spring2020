@@ -9,12 +9,12 @@ package UserInterface_ManageCustomer;
  *
  * @author User
  */
-public class FlightBookingArea extends javax.swing.JPanel {
+public class FlightSearchArea extends javax.swing.JPanel {
 
     /**
      * Creates new form FlightBookingScreen
      */
-    public FlightBookingArea() {
+    public FlightSearchArea() {
         initComponents();
     }
 
@@ -101,6 +101,9 @@ public class FlightBookingArea extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton4)
                 .addGap(107, 107, 107))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 630, Short.MAX_VALUE)
+                .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -129,17 +132,14 @@ public class FlightBookingArea extends javax.swing.JPanel {
                                 .addGap(18, 18, 18)
                                 .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(309, 309, 309)
-                        .addComponent(jButton3))
-                    .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jButton1)
                         .addGap(145, 145, 145)
-                        .addComponent(jLabel5)))
+                        .addComponent(jLabel5))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(247, 247, 247)
+                        .addComponent(jButton3)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 630, Short.MAX_VALUE)
-                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -178,9 +178,9 @@ public class FlightBookingArea extends javax.swing.JPanel {
                             .addComponent(jButton4)
                             .addComponent(jButton2))))
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton3)
-                .addContainerGap())
+                .addGap(18, 18, 18))
         );
     }// </editor-fold>//GEN-END:initComponents
 
