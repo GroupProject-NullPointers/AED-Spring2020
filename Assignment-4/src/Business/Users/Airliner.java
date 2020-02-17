@@ -17,7 +17,7 @@ public class Airliner extends User implements Comparable<Airliner>{
     private FlightDirectory directory;
     User u;
     public Airliner(String password, String userName) {
-        super(password, userName, "SUPPLIER");
+        super(password, userName, "AIRLINER");
         directory = new FlightDirectory();
        
     }
